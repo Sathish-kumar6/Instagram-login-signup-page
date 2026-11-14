@@ -1,0 +1,46 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+div{
+    
+    width: 500px;
+    height: 500pc;
+    position: relative;
+    top: 20px;
+    left: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+div>input{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+div a{
+    text-align: center;
+}
+div a>button{
+    width: 500px;
+    height: 50px;
+    border-radius: 100px;
+}
+div #login-btn{
+    background-color: lightblue;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+}
+div #signup-btn{
+    background-color: white;
+    border: 1px solid rgb(2, 113, 150);
+    font-size: large;
+    font-weight: 700;
+    color: rgb(2, 113, 150);
+}

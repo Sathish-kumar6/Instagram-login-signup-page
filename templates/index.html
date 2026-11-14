@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="{% static './style.css' %}">
+</head>
+<body>
+    <div>
+        <h2>Log into Instagram</h2>
+        <input type="text" placeholder="Mobile number, username, or email">
+        <input type="password" placeholder="Password">
+        <a href=""><button id="login-btn">Log in</button></a>
+        <a href="">Forget password?</a>
+        <a href="signup"><button id="signup-btn">Create new account</button></a>
+    </div>
+</body>
+</html>

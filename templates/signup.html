@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static%}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup instagram</title>
+    <link rel="stylesheet" href="{% static './signupstyle.css' %}">
+</head>
+<body>
+    <div id="signup-contents">
+        <h3>Get started on Instagram with a Meta Account</h3>
+        <form action="welcome" id="form-contents">
+            <p>A Meta Account lets you access multiple Meta technologies, like Instagram, easily and securely.</p>
+            <h4>Mobile number or email</h4>
+            <input type="text" placeholder="Mobile number or email" name="mobile">
+            <br>
+            <p>You may receive notifications from us. </p>
+            <h4>Password</h4>
+            <input type="password" placeholder="Password" name="password">
+            <h4>Birth day</h4>
+            <input type="date" placeholder="DD/MM/YYYY" name="DOB">
+            <h4>Name</h4>
+            <input type="text" placeholder="Full name" name="Name" required>
+            <h4>User name</h4>
+            <input type="text" placeholder="User name" name="User name">
+            <input type="submit" placeholder="submit" value="Signup" id="signup-btn">
+            <a href="login"><button id="login-btn">I already have an account</button></a>
+        </form>
+    </div>
+</body>
+</html>

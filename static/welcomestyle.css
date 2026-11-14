@@ -1,0 +1,55 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#welcome-content{
+    width: 500px;
+    height: 250px;
+    background-color: whitesmoke;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    left: 400px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#welcome-content:hover{
+    border: 2px solid green;
+
+}
+#welcome-content #success-icon{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    align-content: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+    animation-duration: 2s;
+    animation-name: success;
+    animation-iteration-count: 2;
+}
+
+@keyframes success{
+    0%{
+        transform: translateY(30px);
+    }
+    40%{
+        transform: translateY(-10px);
+    }
+    60%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+#welcome-content h3{
+    color: green;
+}
